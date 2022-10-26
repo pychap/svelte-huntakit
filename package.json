@@ -16,6 +16,7 @@
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@tailwindcss/typography": "^0.5.7",
 		"autoprefixer": "^10.4.12",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -32,6 +33,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.33.0"
+		"@fontsource/alegreya": "^4.5.9",
+		"@fontsource/lato": "^4.5.10",
+		"daisyui": "^2.33.0",
+		"theme-change": "^2.2.0"
 	}
 }
