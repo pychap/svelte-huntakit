@@ -1,6 +1,8 @@
-<script>
+<!-- <script>
     /** @type {import('./$types').PageData} */
     export let data;
-</script>
+</script> -->
 
-<h1 class="text-3xl font-medium">Settings</h1>
+<main class=" flex-1 py-3">
+    <h1 class="text-3xl font-medium">Settings</h1>
+</main>

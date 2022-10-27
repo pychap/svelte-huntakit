@@ -1,6 +1,7 @@
 export const load = () => {
   const user = {
-    name: 'Peter',
+    firstname: 'Peter',
+    lastname: 'Chapman',
     email: 'pychapman@proton.me',
   }
 
