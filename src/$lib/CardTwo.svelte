@@ -11,7 +11,7 @@
         <img src="https://i.pravatar.cc/48?img=24" alt="user name" title="user name" width="48" height="48" class="max-w-full rounded-full" />
       </a>
       <div>
-        <h3 class="text-xl font-medium text-slate-700">Stairing at the sky</h3>
+        <h3 class="text-xl font-medium text-slate-700">Stareing at the sky</h3>
         <p class="text-sm text-slate-400"> By Sue Longarm, jun 3 2023</p>
       </div>
     </header>

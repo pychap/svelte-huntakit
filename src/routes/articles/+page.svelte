@@ -1,8 +1,12 @@
 <script>
-  // /** @type {import('./$Types').PageData}   */
-  // export let data;
+    import Hero from '../../$lib/Hero.svelte'
+    import Itworks from "./appearance.md";
+   
 </script>
+<Hero />
+<main class="flex-1 w-screen flex flex-col items-center prose">
+  
+    <slot />
+    <Itworks />
 
-<h1>Pour-over</h1>
-<!-- <p>Hi, my name is {data.user.firstname}</p> -->
-<slot />
+</main>
