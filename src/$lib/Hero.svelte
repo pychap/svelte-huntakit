@@ -1,5 +1,5 @@
 <div
-  class="hero min-w-screen bg-cover bg-center bg-no-repeat h-96"
+  class="hero min-w-screen bg-cover bg-center bg-no-repeat h-96 mb-5"
   style="background-image: url(../src/assets/img/screen-with-code.jpg)"
 >
   <div class="hero-overlay bg-opacity-60" />
