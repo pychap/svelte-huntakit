@@ -8,7 +8,7 @@
 
 <main class=" flex-1 w-screen flex flex-col items-center">
 	<Hero />
-	<section class="flex flex-col px-6 py-4 business:bg-transparent  w-3/4 h-full prose">
+	<section class="flex flex-col px-6 py-4 business:bg-transparent  w-3/4 h-full prose business:prose-invert">
 		<h1
 			class="text-3xl md:text-[2.50rem] font-serif font-medium leading-none tracking-tight mb-4 font-heading"
 		>
@@ -21,7 +21,7 @@
 				rel="noopener noreferrer"
 				alt="SvelteKit"
 				class=" no-underline border-b border-dotted border-orange-500  hover:bg-orange-200 hover:text-gray-700"
-				>SvelteKit</a
+				>SvelteKit (new)</a
 			>,
 			<a
 				href="https://tailwindcss.com/"
@@ -42,9 +42,7 @@
 			>.
 		</p>
 		<p>
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet qui reprehenderit
-			voluptatem! Eveniet laboriosam quam porro ut? Consequuntur fugit iusto praesentium corrupti
-			itaque! Voluptatem fugit soluta consectetur doloribus provident.
+			The goal has been to start from the SveltKit <code class="mockup-code font-normal text-warning">skeleton</code> install and build from the ground-up. Many thanks to Huntabyte's YouTube video <a href="https://youtu.be/jCzEJG2osNw" target="_blank" rel="noopener noreferrer" alt="Layouts in SvelteKit" class="no-underline border-b border-dotted border-orange-500  hover:bg-orange-200 hover:text-gray-700">Layouts in SvelteKit</a> which got me off the ground. Yes, I started to build 
 		</p>
 
 		<!-- <p class="text-indigo-300">Welcome {data.user.name}!</p> -->

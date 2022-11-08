@@ -1,3 +1,9 @@
+<script>
+	export let data
+	const { products, users } = data
+	console.log(users)
+</script>
+
 <h1 class="text-3xl font-medium my-4">About</h1>
 <slot />
 
@@ -23,6 +29,13 @@
 
   	<section class="flex flex-col px-6 py-4  w-3/4 h-full prose">
     <h1 class="text-3xl md:text-[2.50rem] font-serif font-medium leading-none tracking-tight mb-4 font-heading">About</h1>
+		{#each products as product}
+		  <h4>{product.title}</h4>
+		  <p>{product.description} priced at ${product.price}.00</p>
+		{/each}
+		{#each users as user}
+		  <p>#{user.id}. {user.firstName} {user.lastName}, is {user.age} years old.</p>
+		{/each}
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet qui reprehenderit voluptatem! Eveniet laboriosam quam porro ut? Consequuntur fugit iusto praesentium corrupti itaque! Voluptatem fugit soluta consectetur doloribus provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet qui reprehenderit voluptatem! Eveniet laboriosam quam porro ut? Consequuntur fugit iusto praesentium corrupti itaque! Voluptatem fugit soluta consectetur doloribus provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio amet qui reprehenderit voluptatem! Eveniet laboriosam quam porro ut? Consequuntur fugit iusto praesentium corrupti itaque! Voluptatem fugit soluta consectetur doloribus provident.</p>
